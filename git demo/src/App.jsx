@@ -1,5 +1,13 @@
+import FirstPage from "./page/FirstPage";
+import SecondPage from "./page/secondPage";
+
 function App() {
-  return <>demo</>;
+  return (
+    <>
+      <FirstPage />
+      <SecondPage />
+    </>
+  );
 }
 
 export default App;
